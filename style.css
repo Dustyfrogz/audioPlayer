@@ -1,0 +1,69 @@
+.slider-wrapper {
+    display: inline-block;
+    width: 20px;
+    height: 150px;
+    padding: 0;
+}
+
+.slider-wrapper input {
+    width: 150px;
+    height: 20px;
+    margin: 0;
+    transform-origin: 75px 75px;
+    transform: rotate(-90deg);
+}
+
+.slider-handle.custom::before {
+    line-height: 10px;
+    font-size: 40px;
+    content: '\01F3B2';
+    color: #d47b28;
+}
+
+.slider-tick.custom::before {
+    line-height: 20px;
+    font-size: 20px;
+    content: '\002684';
+    color: #046072;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 50%;
+    height: 15px;
+    background: #000;
+    outline: none;
+    border: 5px solid lawngreen;
+    border-radius: 8px;
+    transform: rotate(-90deg);
+}
+
+
+/* for chrome/safari */
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 60px;
+    background: #000;
+    cursor: pointer;
+    border: 5px solid lawngreen;
+    border-radius: 4px;
+}
+
+
+/* for firefox */
+
+.slider::-moz-range-thumb {
+    width: 20px;
+    height: 60px;
+    background: #000;
+    cursor: pointer;
+    border: 5px solid lawngreen;
+    border-radius: 4px;
+}
+
+svg#main {
+    max-width: 100%;
+}
