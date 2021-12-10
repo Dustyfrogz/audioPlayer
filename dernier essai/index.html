@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bouton tournant</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <div id="platine">
+
+
+        <div id="backPlatine">
+
+            <div id="disk1" class="Entiredisk">
+                <img id="diskvinyle1" class="Entiredisk" src="./image/disque-vinyle.png">
+                <img id="diskvinylecenter1" class="diskCenter">
+            </div>
+
+
+            <div id="disk2" class="Entiredisk">
+                <img id="diskvinyle2" class="Entiredisk" src="./image/disque-vinyle.png">
+                <img id="diskvinylecenter2" class="diskCenter" src="./image/lentedepression.jpg">
+            </div>
+
+            <div id="disk3" class="Entiredisk">
+                <img id="diskvinyle3" class="Entiredisk" src="./image/disque-vinyle.png">
+                <img id="diskvinylecenter3" class="diskCenter">
+            </div>
+
+
+            <div id="disk4" class="Entiredisk">
+                <img id="diskvinyle4" class="Entiredisk" src="./image/disque-vinyle.png">
+                <img id="diskvinylecenter4" class="diskCenter">
+
+            </div>
+
+            <div id="divArm">
+                <img id="arm" src="./image/record-needle-arm.png">
+            </div>
+            <div id="divDisk">
+                <img id="disk" src="./image/disque-vinyle.png">
+                <img id="centerVinyle" src="./image/lentedepression.jpg">
+            </div>
+            <input id="vol-control" type="range" min="0" max="100" value="" step="1">
+            <div class="slider-wrapper">
+                <input id="rate" type="range" data-slider-handle="custom" data-slider-ticks-snap-bounds="20" min="0" max="200" value="0" step="1">
+            </div>
+            <!-- <div id="playPauseButtonDiv"> -->
+            <input type="checkbox" id="playPauseButton">
+            <label class="icon" for="playPauseButton"></label>
+            <!-- </div> -->
+        </div>
+    </div>
+
+    <div id="AudioPlayer">
+        <div id="playerDiv" class="lecteur">
+            <audio id="player" src="./music/lentedepression.mp3" controls>
+        
+    </audio>
+        </div>
+    </div>
+
+</body>
+<script src="Draggable.min.js"></script>
+<script src="gsap.min.js"></script>
+<script src="main.js"></script>
+
+</html>

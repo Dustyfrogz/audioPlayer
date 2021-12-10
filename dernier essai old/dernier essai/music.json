@@ -1,0 +1,25 @@
+[{
+        "artiste": "Arne Vinzon",
+        "titre": "Lente Depression",
+        "music_src": "./music/lentedepression.mp3",
+        "image": "./image/lentedepression.jpg"
+    },
+    {
+        "artiste": "Chilly Gonzales",
+        "titre": "Knight Moves",
+        "music_src": "./music/knightmoves.mp3",
+        "image": "./image/knightmoves.jpg"
+    },
+    {
+        "artiste": "Georges Brassens",
+        "titre": "Le temps ne fait rien à l'affaire",
+        "music_src": "./music/letemps.mp3",
+        "image": "./image/letemps.jpg"
+    },
+    {
+        "artiste": "Elton John, Dua Lipa",
+        "titre": "Cold Heart",
+        "music_src": "./music/coldheart.mp3",
+        "image": "./image/coldheart.jpg"
+    }
+]
